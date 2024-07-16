@@ -4,7 +4,7 @@ import pandas as pd
 def get_demographics_publisher(df):
     print(df.groupby(['Journal_type', 'Publisher']).size())
 
-
+print("es")
 if __name__ == '__main__':
     file_path = './source/Primay_Study_new.xlsx'
 
