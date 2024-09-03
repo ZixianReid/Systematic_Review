@@ -1,5 +1,9 @@
+# Open the file and read the lines
+with open('text', 'r') as f:
+    models = f.readlines()
 
-x = 'program repair'
-if (x == 'Cross-Language Code Clone' or 'code clone' or 'code clone validation' or 'code clone label'
-        or 'code clone,source code classification' or 'code clone validation'):
-    print(1)
+# Remove newline characters, sort, and eliminate duplicates
+models = sorted(set(line.strip() for line in models))
+
+print(models)
+print(len(models))

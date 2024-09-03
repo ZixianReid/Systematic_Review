@@ -1,0 +1,90 @@
+SourcererCC
+NiCad
+Deckard
+CCLearner
+Deckard
+DLC/RtvNN/RAE
+CDLH
+DeepSim
+Oreo
+ASTNN
+TBCNN
+FCCA
+TBCCD
+Sia-RAE
+FA-AST + GGNN
+FA-AST + GMN
+Jo et al. \cite{10.3390/app11146613}
+SCCD-GAN
+Zhang et al. \cite{10.1109/apsec53868.2021.00008}
+InferCode
+SCDetector
+CodeBert
+GraphCodeBert
+Jiang et al\cite{10.1016/j.jss.2022.111355}
+PCAN
+GGNN
+CG-MPNN-GRU
+TreeGen
+Zhang et al. \cite{10.1016/j.jss.2022.111557}
+SSFL
+Goner
+PCDT
+UniXcoder
+Code2vec
+GMN+PNC
+Deckard
+FA-AST + GGNN
+FA-AST + GMN
+DLC/RtvNN/RAE
+DeepSim
+ASTNN
+SCCD-GAN
+HELoC
+FCCA
+SCDetector
+InferCode
+CDLH
+TBCNN
+SourcererCC
+EA-HOLMES
+GGNN
+CG-MPNN-GRU
+Admain
+TreeGen
+Goner
+Deckard
+DLC/RtvNN/RAE
+SourcererCC
+CDLH
+ASTNN
+TBCCD
+MTN
+CNN
+LSTM
+Bi-LSTM
+Code-RNN
+GGNN
+Tree-LSTM
+DeepSim
+SSFL
+CSEM
+CCLearner
+CloneWork
+Zhang et al. \cite{10.1016/j.jss.2022.111557}
+FCCA
+SCDetector
+InferCode
+TBCNN
+CodeBert
+GraphCodeBert
+Jiang et al. \cite{10.1016/j.jss.2022.111355}
+PCAN
+Word2vec \cite{10.3390/app10217519}
+N-gram \cite{10.3390/app10217519}
+WICE-SNN \cite{10.3390/app10217519}
+Deep fusion model \cite{10.1145/3395363.3397362}
+PDG+HOPE \cite{tufano2018deep}
+PGC+GGNN \cite{allamanis2017learning}
+Zhang et al \cite{10.1109/apsec53868.2021.00008}
+TAILOR

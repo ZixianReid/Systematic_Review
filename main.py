@@ -12,7 +12,13 @@ if __name__ == '__main__':
     df = df[df['is_source_code'] != 'No'].reset_index(drop=True)
 
     # rq1_applications.plot_year(df)
-    rq6_performance_comparsion.plot_clccd_performance(df)
+    # rq6_performance_comparsion.plot_clccd_performance(df)
+    # rq2_ml.plot_ml_over_applications(df)
+
+    # rq3_code_represnetations.plot_code_representations_over_years(df)
+
+
+    rq2_ml.table_ml_new(df)
 
 
     # rq3_code_represnetations.plot_code_representations_over_years(df)

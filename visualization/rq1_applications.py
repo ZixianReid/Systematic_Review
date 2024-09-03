@@ -23,7 +23,7 @@ def plot_year(df):
 
     plt.figure(figsize=(10, 12))
     bars = plt.bar(year_counts.index, year_counts, color=colors)
-    plt.ylabel('Number of Primary Study', fontsize=font_size)
+    plt.ylabel('Number of Primary Studies', fontsize=font_size)
     plt.xticks(rotation=45, va='top', fontsize=font_size)
 
     for bar in bars:
@@ -62,12 +62,12 @@ def plot_applications_per_year(df):
         elif x == 'Cross-Language Code Clone':
             return 'Cross-Language Code Clone'
 
-    sns.set_theme(style="whitegrid")
+    sns.set_theme(style="white")
     df['Year'] = df['Year'].apply(lambda x: str(int(x)))
     # df['Year'] = df['Year'].apply(lambda x: '2014 or earlier' if int(x) <= 2014 else x)
     df['Application_type'] = df['Application_type'].apply(function)
 
-    plt.figure(figsize=(10, 12))
+    plt.figure(figsize=(12, 12))
     colors = color_6
     sns.histplot(data=df, x='Year', bins=45, edgecolor='black', hue='Application_type', palette=colors,
                  multiple='stack')
@@ -78,14 +78,16 @@ def plot_applications_per_year(df):
 
     plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: int(x)))
 
-    plt.xlabel('', fontsize=20)
-    plt.ylabel('Number of Primary Study', fontsize=20)
-    plt.tick_params(axis='both', which='major', labelsize=15)
+    plt.xlabel('', fontsize=24)
+    plt.xticks(rotation=45)
+    plt.ylabel('Number of Primary Study', fontsize=24)
+    plt.tick_params(axis='both', which='major', labelsize=22)
 
     ncols_legend = math.ceil(len(types) / 2)
-    plt.legend(handles=legend_patches, title=legend_title, loc='upper center', bbox_to_anchor=(0.5, 1.05),
-               ncol=ncols_legend, fontsize=15)
+    plt.legend(handles=legend_patches, title=legend_title, loc='upper center', bbox_to_anchor=(0.5, 1.09),
+               ncol=ncols_legend, fontsize=19)
     plt.tight_layout()  # Add this line to reduce blank area
+
     plt.show()
 
 def plot_application(df):
